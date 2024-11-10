@@ -1,7 +1,37 @@
-# orders
+# Orders APIs - using LoopBack
 
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
+
+## Steps
+1. Install LoopBack
+   ```sh
+   npm install -g @loopback/cli
+   ```
+2. Create a new project
+   ```
+   lb4 app
+   ```
+3. Create a Model Entity
+   ```
+   lb4 model
+   ```
+4. Create a simple in-memory datasource
+   ```
+   lb4 datasource
+   ```
+5. Create a repository for Product Model
+   ```
+   lb4 repository
+   ```
+6. Create a controller
+   ```
+   lb4 controller
+   ```
+7. Now run the Application and test it on the browser - http://127.0.0.1:3000
+   ```
+   npm start
+   ```
 
 ## Install dependencies
 
