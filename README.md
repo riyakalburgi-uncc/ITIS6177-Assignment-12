@@ -8,11 +8,11 @@ This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/
    ```sh
    npm install -g @loopback/cli
    ```
-2. Create a new project
+2. Create a new project for orders-api
    ```
    lb4 app
    ```
-3. Create a Model Entity
+3. Create a Order Entity
    ```
    lb4 model
    ```
@@ -20,7 +20,7 @@ This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/
    ```
    lb4 datasource
    ```
-5. Create a repository for Product Model
+5. Create a repository for order-entity Model
    ```
    lb4 repository
    ```
